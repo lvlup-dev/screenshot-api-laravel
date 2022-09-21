@@ -1,0 +1,24 @@
+{
+    "name": "lvlup-dev/screenshot-api-laravel",
+    "description": "Uses screenshotapi.net to easily fetch screenshots from urls.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LvlupDev\\ScreenshotApiLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Didier Sampaolo",
+            "email": "didier@lvlup.fr"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LvlupDev\\ScreenshotApiLaravel\\ScreenshotApiServiceProvider"
+            ]
+        }
+    }
+}
